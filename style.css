@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    background-color: black;
+}
+img{
+    height: 70vh;
+    width: 80%;
+}
+.content{
+    background-color: #fff;
+    width: 30%;
+    height: 50vh;
+    padding: 4%;
+    border: none;
+    margin: 3%;
+    margin-left: -13%;
+}
+.content h5{
+    color: grey;
+}
+.content h2{
+    font-size: 33px;
+    font-family:'Trebuchet MS';
+    padding-bottom: 2rem;
+}
+.content p{
+    font-family: 'Arial';
+    line-height: 1.5rem;
+}
+.media{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: greenyellow;
+    color: white;
+    padding: 10px;
+    margin-left: -25%;
+    height: 50px;
+    width: 60%;
+    font-size: 26px;
+}
